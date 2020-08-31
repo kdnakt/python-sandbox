@@ -3,5 +3,5 @@ from diagrams.aws.compute import EC2
 from diagrams.aws.database import RDS
 from diagrams.aws.network import ELB
 
-with Diagram("Web Service", show=False):
-    ELB("lb") >> EC2("web") >> RDS("userdb")
+with Diagram("Web Service (Japanase, diagrams 0.14.0)", show=False):
+    ELB("ロードバランサー") >> EC2("Webサーバー") >> RDS("データベース")
